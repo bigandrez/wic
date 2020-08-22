@@ -1,0 +1,242 @@
+<resources>
+    <string name="app_name">Кто звонит</string>
+    <string name="title_activity_settings">Настройки</string>
+
+    <string name="locale_title">Язык</string>
+    <string-array name="use_locale">
+        <item>English, US (en_US)</item>
+        <item>Chinese, PRC (zh_CN)</item>
+        <item>Chinese, Taiwan (zh_TW)</item>
+        <item>Czech, Czech Republic (cs_CZ)</item>
+        <item>Dutch, Belgium (nl_BE)</item>
+        <item>Dutch, Netherlands (nl_NL)</item>
+        <item>English, Australia (en_AU)</item>
+        <item>English, Britain (en_GB)</item>
+        <item>English, Canada (en_CA)</item>
+        <item>English, New Zealand (en_NZ)</item>
+        <item>English, Singapore(en_SG)</item>
+        <item>French, Belgium (fr_BE)</item>
+        <item>French, Canada (fr_CA)</item>
+        <item>French, France (fr_FR)</item>
+        <item>French, Switzerland (fr_CH)</item>
+        <item>German, Austria (de_AT)</item>
+        <item>German, Germany (de_DE)</item>
+        <item>German, Liechtenstein (de_LI)</item>
+        <item>German, Switzerland (de_CH)</item>
+        <item>Italian, Italy (it_IT)</item>
+        <item>Italian, Switzerland (it_CH)</item>
+        <item>Japanese (ja_JP)</item>
+        <item>Korean (ko_KR)</item>
+        <item>Polish (pl_PL)</item>
+        <item>Russian (ru_RU)</item>
+        <item>Spanish (es_ES)</item>
+        <item>Arabic, Egypt (ar_EG)</item>
+        <item>Arabic, Israel (ar_IL)</item>
+        <item>Bulgarian, Bulgaria (bg_BG)</item>
+        <item>Catalan, Spain (ca_ES)</item>
+        <item>Croatian, Croatia (hr_HR)</item>
+        <item>Danish, Denmark(da_DK)</item>
+        <item>English, India (en_IN)</item>
+        <item>English, Ireland (en_IE)</item>
+        <item>English, Zimbabwe (en_ZA)</item>
+        <item>Finnish, Finland (fi_FI)</item>
+        <item>Greek, Greece (el_GR)</item>
+        <item>Hebrew, Israel (iw_IL)</item>
+        <item>Hindi, India (hi_IN)</item>
+        <item>Hungarian, Hungary (hu_HU)</item>
+        <item>Indonesian, Indonesia (in_ID)</item>
+        <item>Latvian, Latvia (lv_LV)</item>
+        <item>Lithuanian, Lithuania (lt_LT)</item>
+        <item>Norwegian-Bokmol, Norway (nb_NO)</item>
+        <item>Portuguese, Brazil (pt_BR)</item>
+        <item>Portuguese, Portugal (pt_PT)</item>
+        <item>Romanian, Romania (ro_RO)</item>
+        <item>Serbian (sr_RS)</item>
+        <item>Slovak, Slovakia (sk_SK)</item>
+        <item>Slovenian, Slovenia (sl_SI)</item>
+        <item>Spanish, US (es_US)</item>
+        <item>Swedish, Sweden (sv_SE)</item>
+        <item>Tagalog, Philippines (tl_PH)</item>
+        <item>Thai, Thailand (th_TH)</item>
+        <item>Turkish, Turkey (tr_TR)</item>
+        <item>Ukrainian, Ukraine (uk_UA)</item>
+        <item>Vietnamese, Vietnam (vi_VN)</item>
+    </string-array>
+    <string-array name="use_locale_values">
+        <item>en_US</item>
+        <item>zh_CN</item>
+        <item>zh_TW</item>
+        <item>cs_CZ</item>
+        <item>nl_BE</item>
+        <item>nl_NL</item>
+        <item>en_AU</item>
+        <item>en_GB</item>
+        <item>en_CA</item>
+        <item>en_NZ</item>
+        <item>en_SG</item>
+        <item>fr_BE</item>
+        <item>fr_CA</item>
+        <item>fr_FR</item>
+        <item>fr_CH</item>
+        <item>de_AT</item>
+        <item>de_DE</item>
+        <item>de_LI</item>
+        <item>de_CH</item>
+        <item>it_IT</item>
+        <item>it_CH</item>
+        <item>ja_JP</item>
+        <item>ko_KR</item>
+        <item>pl_PL</item>
+        <item>ru_RU</item>
+        <item>es_ES</item>
+        <item>ar_EG</item>
+        <item>ar_IL</item>
+        <item>bg_BG</item>
+        <item>ca_ES</item>
+        <item>hr_HR</item>
+        <item>da_DK</item>
+        <item>en_IN</item>
+        <item>en_IE</item>
+        <item>en_ZA</item>
+        <item>fi_FI</item>
+        <item>el_GR</item>
+        <item>iw_IL</item>
+        <item>hi_IN</item>
+        <item>hu_HU</item>
+        <item>in_ID</item>
+        <item>lv_LV</item>
+        <item>lt_LT</item>
+        <item>nb_NO</item>
+        <item>pt_BR</item>
+        <item>pt_PT</item>
+        <item>ro_RO</item>
+        <item>sr_RS</item>
+        <item>sk_SK</item>
+        <item>sl_SI</item>
+        <item>es_US</item>
+        <item>sv_SE</item>
+        <item>tl_PH</item>
+        <item>th_TH</item>
+        <item>tr_TR</item>
+        <item>uk_UA</item>
+        <item>vi_VN</item>
+    </string-array>
+
+    <string name="use_tts_title">Используемый TTS</string>
+    <string-array name="use_tts">
+        <item>Автоматический выбор</item>
+        <item>TTS на этом телефоне</item>
+        <item>Внешний TTS</item>
+    </string-array>
+    <string-array name="use_tts_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="use_freq_title">Частота дискретизации рингтона</string>
+    <string-array name="use_freq">
+        <item>44100</item>
+        <item>22050</item>
+        <item>8000</item>
+    </string-array>
+    <string-array name="use_freq_values">
+        <item>44100</item>
+        <item>22050</item>
+        <item>8000</item>
+    </string-array>
+
+    <string name="must_be_advertising">Здесь должна быть реклама</string>
+    <string name="try_pro_mode_enabled">Доступна активация версии pro lite в настройках</string>
+    <string name="pro_mode_activated" formatted="false"><![CDATA[Версия pro lite активирована<br/>]]></string>
+    <string name="pro_mode_required">Требуется версия pro</string>
+    <string name="pro_lite_mode_required">Требуется версия pro или pro lite</string>
+
+    <string name="try_pro_lite_mode">Активировать версию pro lite</string>
+    <string name="try_pro_lite_mode_summary">Требуется просмотреть рекламу до конца. Если не активно - значит нет подключения к интернету. Или реклама ещё не загрузилась</string>
+    <string name="only_untreated_contacts">Только изменившиеся</string>
+    <string name="only_untreated_contacts_summary">Обрабатывать только изменившиеся контакты</string>
+    <string name="prefix_for_incoming_call">Префикс для контакта</string>
+    <string name="prefix_for_incoming_call_value">Звонит</string>
+    <string name="suffix_for_incoming_call">Суффикс для контакта</string>
+    <string name="suffix_for_incoming_call_value"></string>
+    <string name="call_ringtone">Рингтон для звонка</string>
+    <string name="timeout_before_speech">Задержка перед озвучкой</string>
+    <string name="ringtone_duration">Ограничение длительности рингтона</string>
+    <string name="current_value">Текущее значение</string>
+    <string name="seconds">секунд</string>
+    <string name="remove_contacts_ringtones">Нажми, чтобы удалить рингтоны</string>
+    <string name="ringtone_sample">Нажми, чтобы прослушать пример рингтона</string>
+    <string name="start_creating_ringtones">Нажми, чтобы создать рингтоны для контактов</string>
+    <string name="prestart_creating_ringtones">Нажми на рекламу, чтобы создать рингтоны для контактов</string>
+    <string name="stop_creating">Нажми, чтобы остановить создание рингтона</string>
+    <string name="contacts_permission_required">Для работы приложения требуется разрешить доступ к контактам</string>
+    <string name="external_permission_required">Для работы приложения требуется разрешить доступ к внешнему хранилищу</string>
+
+    <string name="ringtones_removed" formatted="false"><![CDATA[Все пользовательские рингтоны удалены из контактов<br/>]]></string>
+    <string name="are_you_sure">Вы уверены?</string>
+    <string name="do_you_want_to_remove_ringtones">Вы хотите удалить все пользовательские рингтоны из контактов?</string>
+    <string name="do_you_want_to_create_ringtones">Вы хотите создать ринктоны для контактов?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+
+    <string name="loading_contacts">Загрузка контактов [0]</string>
+    <string name="preparing_contacts">Поиск изменившихся контактов [0]</string>
+    <string name="try_use_local_tts">Создание файла с озвучкой, используя локальный TTS [0]</string>
+    <string name="try_use_external_tts">Создание файла с озвучкой, используя внешний TTS (из интернета) [0]</string>
+    <string name="waiting_for_create_ringtone">Создание файла рингтона [0]</string>
+
+    <string name="create_source_ringtone_file">Создание файла с указанным рингтоном [ ]</string>
+    <string name="play_created_file">Проигрывание созданного образеца рингтона</string>
+    <string name="remains_to_process_contacts">Осталось обработать %d контакта(ов)</string>
+    <string name="create_ringtone_for_contact_name">Создаем рингтон для контакта <font color="#d000d0">%s"</font></string>
+
+    <string name="green_ok" formatted="false"><![CDATA[<font color="#00b000">OK</font>]]></string>
+    <string name="green_empty" formatted="false"><![CDATA[<font color="#00d000">Empty</font>]]></string>
+    <string name="red_error" formatted="false"><![CDATA[<font color="#d00000">Error</font>]]></string>
+    <string name="red_cancel" formatted="false"><![CDATA[<font color="#d00000">Cancel</font>]]></string>
+
+    <string name="need_update_contacts" formatted="false"><![CDATA[Найдено %d контакта(ов) с телефонными номерами, из которых для %d не назначены рингтоны с озвучиванием имени абонента.<br/>]]></string>
+    <string name="internal_tts_ok" formatted="false"><![CDATA[Активация локального TTS [<font color="#00b000">OK</font>]<br/>]]></string>
+    <string name="internal_tts_error" formatted="false"><![CDATA[Активация локального TTS [<font color="#d00000">Error</font>]<br/>]]></string>
+
+    <string name="not_enough_space" formatted="false"><![CDATA[<font color="red"><br/>Ошибка: недостаточно свободного места. Требуется от 50 КБ до 500 КБ на рингтон для одного контакта</font><br/>]]></string>
+    <string name="cant_create_path" formatted="false"><![CDATA[<font color="red"><br/>Ошибка: не возможно создать папку "%s"</font><br/>]]></string>
+    <string name="error_create_ringtone" formatted="false"><![CDATA[<font color="red"><br/>Ошибка: не возможно создать рингтон</font><br/>]]></string>
+    <string name="cancel_create_ringtone" formatted="false"><![CDATA[<font color="red"><br/>Отмена создания рингтона</font><br/>]]></string>
+    <string name="error_create_speech" formatted="false"><![CDATA[<font color="red"><br/>Ошибка: не возможно создать файл озвучки</font><br/>]]></string>
+    <string name="error_download_speech" formatted="false"><![CDATA[<font color="red"><br/>Ошибка: не возможно скачать файл озвучки. Проверьте соединение с интернетом</font><br/>]]></string>
+    <string name="many_contacts_warning" formatted="false"><![CDATA[<font color="#b00000">Предупреждение: слишком много контактов (>500). Проверьте Ваш список контактов</font><br/>]]></string>
+
+    <string name="sel_speech" formatted="false"><![CDATA[Выбранный текст для произношения: <font color="#d000d0">%s</font><br/>]]></string>
+    <string name="ring_to_cont" formatted="false"><![CDATA[Присваивание рингтона контакту<br/><br/>]]></string>
+    <string name="create_not_need" formatted="false"><![CDATA[<br/><font color="green">Создание рингтонов для контактов не требуется</font><br/>]]></string>
+    <string name="create_complete" formatted="false"><![CDATA[<br/><font color="green">Создание рингтонов завершено</font><br/>]]></string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-5368195271545700/9283902476</string>
+    <string name="helptextpro" formatted="false"><![CDATA[
+<h3>Здравствуйте, уважаемый пользователь.</h3>
+<p>Данное приложение создает рингтоны с озвучкой (с произнесением имени звонящего из контактов) и назначает их соответствующим контактам.</p>
+<p>Существенное отличие от других, аналогичных приложений, в следующем:<br/>
+1. Не возможны никакие проблемы при воспроизведении рингтона с озвучиванием имени звонящего при входящем звонке.<br/>
+2. Приложению не требуется быть загруженным для того, чтобы воспроизводился рингтон с озвучиванием имени абонента при входящем звонке. Мало того, программу можно вообще удалить (после того, как она создаст и назначит рингтоны) - и фунция озвучивание имени звонящего не пропадет.<br/>
+3. Озвучивание будет работать и для bluetooth наушников - если только они не обладают собственной функцией информирования о входящем вызове.<br/>
+4. Для успешной работы приложению не требуется установка каких-либо дополнительных программ или модулей.</p>
+<p>Тем не менее, есть и небольшие минусы:<br/>
+1. Файлы рингтонов могут занять достаточно много места - до нескольких сотен мегабайт - в зависимости от качества (частоты дискретизации).<br/>
+2. Создание рингтонов - достаточно длительный процесс. При 500 контактах это может занять до одного часа.</p>
+]]></string>
+    <string name="helptextbuttons" formatted="false"><![CDATA[
+<p>Для того, чтобы проверить работоспособность механизма создания рингтона, или просто прослушать образец рингтона - нажмите кнопку "Пример рингтона".<br/>
+Для создания рингтонов для всех контактов (к которым рингтон еще не создан) нажмите кнопку "Создать рингтоны для контактов"<br/>
+Для удаления всех, созданных этим приложением рингтонов - нажмите кнопку "Удалить рингтоны"</p>
+]]></string>
+    <string name="helptextprolite"><![CDATA[
+<p>Это бесплатная версия приложения.<br/>
+Чтобы изменить рингтон активируйте версию pro lite или приобретите pro версию приложения.<br/>
+Чтобы изменить префикс или суффикс для контакта, или изменить качество рингтона - приобретите pro версию приложения.<br/>
+Для активации версии pro lite проверьте подключание к интернету, зайдите в настройки программы и нажмите "Активировать версию pro lite".<br/>
+Активация требует просмотра видеорекламы до конца. Если пункт меню недоступен - повторите попытку позже.</p>
+]]></string>
+
+</resources>

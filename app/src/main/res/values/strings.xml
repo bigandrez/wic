@@ -1,0 +1,230 @@
+<resources>
+    <string name="app_name">Who calling</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="locale_title">Use locale</string>
+    <string-array name="use_locale">
+        <item>English, US (en_US)</item>
+        <item>Chinese, PRC (zh_CN)</item>
+        <item>Chinese, Taiwan (zh_TW)</item>
+        <item>Czech, Czech Republic (cs_CZ)</item>
+        <item>Dutch, Belgium (nl_BE)</item>
+        <item>Dutch, Netherlands (nl_NL)</item>
+        <item>English, Australia (en_AU)</item>
+        <item>English, Britain (en_GB)</item>
+        <item>English, Canada (en_CA)</item>
+        <item>English, New Zealand (en_NZ)</item>
+        <item>English, Singapore(en_SG)</item>
+        <item>French, Belgium (fr_BE)</item>
+        <item>French, Canada (fr_CA)</item>
+        <item>French, France (fr_FR)</item>
+        <item>French, Switzerland (fr_CH)</item>
+        <item>German, Austria (de_AT)</item>
+        <item>German, Germany (de_DE)</item>
+        <item>German, Liechtenstein (de_LI)</item>
+        <item>German, Switzerland (de_CH)</item>
+        <item>Italian, Italy (it_IT)</item>
+        <item>Italian, Switzerland (it_CH)</item>
+        <item>Japanese (ja_JP)</item>
+        <item>Korean (ko_KR)</item>
+        <item>Polish (pl_PL)</item>
+        <item>Russian (ru_RU)</item>
+        <item>Spanish (es_ES)</item>
+        <item>Arabic, Egypt (ar_EG)</item>
+        <item>Arabic, Israel (ar_IL)</item>
+        <item>Bulgarian, Bulgaria (bg_BG)</item>
+        <item>Catalan, Spain (ca_ES)</item>
+        <item>Croatian, Croatia (hr_HR)</item>
+        <item>Danish, Denmark(da_DK)</item>
+        <item>English, India (en_IN)</item>
+        <item>English, Ireland (en_IE)</item>
+        <item>English, Zimbabwe (en_ZA)</item>
+        <item>Finnish, Finland (fi_FI)</item>
+        <item>Greek, Greece (el_GR)</item>
+        <item>Hebrew, Israel (iw_IL)</item>
+        <item>Hindi, India (hi_IN)</item>
+        <item>Hungarian, Hungary (hu_HU)</item>
+        <item>Indonesian, Indonesia (in_ID)</item>
+        <item>Latvian, Latvia (lv_LV)</item>
+        <item>Lithuanian, Lithuania (lt_LT)</item>
+        <item>Norwegian-Bokmol, Norway (nb_NO)</item>
+        <item>Portuguese, Brazil (pt_BR)</item>
+        <item>Portuguese, Portugal (pt_PT)</item>
+        <item>Romanian, Romania (ro_RO)</item>
+        <item>Serbian (sr_RS)</item>
+        <item>Slovak, Slovakia (sk_SK)</item>
+        <item>Slovenian, Slovenia (sl_SI)</item>
+        <item>Spanish, US (es_US)</item>
+        <item>Swedish, Sweden (sv_SE)</item>
+        <item>Tagalog, Philippines (tl_PH)</item>
+        <item>Thai, Thailand (th_TH)</item>
+        <item>Turkish, Turkey (tr_TR)</item>
+        <item>Ukrainian, Ukraine (uk_UA)</item>
+        <item>Vietnamese, Vietnam (vi_VN)</item>
+    </string-array>
+    <string-array name="use_locale_values">
+        <item>en_US</item>
+        <item>zh_CN</item>
+        <item>zh_TW</item>
+        <item>cs_CZ</item>
+        <item>nl_BE</item>
+        <item>nl_NL</item>
+        <item>en_AU</item>
+        <item>en_GB</item>
+        <item>en_CA</item>
+        <item>en_NZ</item>
+        <item>en_SG</item>
+        <item>fr_BE</item>
+        <item>fr_CA</item>
+        <item>fr_FR</item>
+        <item>fr_CH</item>
+        <item>de_AT</item>
+        <item>de_DE</item>
+        <item>de_LI</item>
+        <item>de_CH</item>
+        <item>it_IT</item>
+        <item>it_CH</item>
+        <item>ja_JP</item>
+        <item>ko_KR</item>
+        <item>pl_PL</item>
+        <item>ru_RU</item>
+        <item>es_ES</item>
+        <item>ar_EG</item>
+        <item>ar_IL</item>
+        <item>bg_BG</item>
+        <item>ca_ES</item>
+        <item>hr_HR</item>
+        <item>da_DK</item>
+        <item>en_IN</item>
+        <item>en_IE</item>
+        <item>en_ZA</item>
+        <item>fi_FI</item>
+        <item>el_GR</item>
+        <item>iw_IL</item>
+        <item>hi_IN</item>
+        <item>hu_HU</item>
+        <item>in_ID</item>
+        <item>lv_LV</item>
+        <item>lt_LT</item>
+        <item>nb_NO</item>
+        <item>pt_BR</item>
+        <item>pt_PT</item>
+        <item>ro_RO</item>
+        <item>sr_RS</item>
+        <item>sk_SK</item>
+        <item>sl_SI</item>
+        <item>es_US</item>
+        <item>sv_SE</item>
+        <item>tl_PH</item>
+        <item>th_TH</item>
+        <item>tr_TR</item>
+        <item>uk_UA</item>
+        <item>vi_VN</item>
+    </string-array>
+
+    <string name="use_tts_title">TTS for using</string>
+    <string-array name="use_tts">
+        <item>Use automatic selection</item>
+        <item>Use local TTS</item>
+        <item>Use external TTS</item>
+    </string-array>
+    <string-array name="use_tts_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="use_freq_title">Freq for ringtone</string>
+    <string-array name="use_freq">
+        <item>44100</item>
+        <item>22050</item>
+        <item>8000</item>
+    </string-array>
+    <string-array name="use_freq_values">
+        <item>44100</item>
+        <item>22050</item>
+        <item>8000</item>
+    </string-array>
+
+    <string name="must_be_advertising">There must be advertising</string>
+    <string name="try_pro_mode_enabled">The pro lite mode is available in the settings</string>
+    <string name="pro_mode_activated" formatted="false"><![CDATA[Pro version activated<br/>]]></string>
+    <string name="pro_mode_required">Requires pro version</string>
+    <string name="pro_lite_mode_required">Requires pro or pro lite version</string>
+
+    <string name="try_pro_lite_mode">Try the pro lite version</string>
+    <string name="try_pro_lite_mode_summary">You need to view the ad until the end. If not active - means there is no internet connection. Or advertising has not loaded yet</string>
+    <string name="only_untreated_contacts">Only changed contacts</string>
+    <string name="only_untreated_contacts_summary">Process only changed contacts</string>
+
+    <string name="prefix_for_incoming_call">Prefix for incoming call</string>
+    <string name="prefix_for_incoming_call_value">Calling</string>
+    <string name="suffix_for_incoming_call">Suffix for incoming call</string>
+    <string name="suffix_for_incoming_call_value"></string>
+    <string name="call_ringtone">Ringtone for calling</string>
+    <string name="timeout_before_speech">Timeout before speech</string>
+    <string name="ringtone_duration">Ringtone duration</string>
+    <string name="current_value">Current value is</string>
+    <string name="seconds">seconds</string>
+    <string name="remove_contacts_ringtones">Click to delete ringtones</string>
+    <string name="ringtone_sample">Click to listen to an example of a ringtone</string>
+    <string name="start_creating_ringtones">Click to create ringtones</string>
+    <string name="prestart_creating_ringtones">Click on ads to create ringtones for contacts</string>
+    <string name="stop_creating">Click for stop creating ringtone(s)</string>
+    <string name="contacts_permission_required">The application needs to allow access to contacts</string>
+    <string name="external_permission_required">The application needs to allow access to external storage</string>
+
+    <string name="ringtones_removed" formatted="false"><![CDATA[All custom ringtones are removed from contacts<br/>]]></string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="do_you_want_to_remove_ringtones">Do you want to remove ringtones from all contacts?</string>
+    <string name="do_you_want_to_create_ringtones">Do you want to create ringtones from all contacts?</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="loading_contacts">Loading contacts [0]</string>
+    <string name="preparing_contacts">Preparing contacts [0]</string>
+    <string name="try_use_local_tts">Try use local TTS for create speech file [0]</string>
+    <string name="try_use_external_tts">Try use external TTS for create speech file [0]</string>
+    <string name="waiting_for_create_ringtone">Waiting for create ringtone [0]</string>
+
+    <string name="create_source_ringtone_file">Create a file with the specified ringtone [ ]</string>
+    <string name="play_created_file">Play created file</string>
+    <string name="remains_to_process_contacts">It remains to process %d contacts</string>
+    <string name="create_ringtone_for_contact_name">Create ringtone for contact name "%s"</string>
+
+
+    <string name="green_ok" formatted="false"><![CDATA[<font color="#00d000">OK</font>]]></string>
+    <string name="green_empty" formatted="false"><![CDATA[<font color="#00d000">Empty</font>]]></string>
+    <string name="red_error" formatted="false"><![CDATA[<font color="#d00000">Error</font>]]></string>
+    <string name="red_cancel" formatted="false"><![CDATA[<font color="#d00000">Cancel</font>]]></string>
+
+    <string name="need_update_contacts" formatted="false"><![CDATA[%d contacts found. %d contacts require ringtones update.<br/>]]></string>
+    <string name="internal_tts_ok" formatted="false"><![CDATA[Activating Local TTS [<font color="#00b000">OK</font>]<br/>]]></string>
+    <string name="internal_tts_error" formatted="false"><![CDATA[Activation Local TTS [<font color="#d00000">Error</font>]<br/>]]></string>
+    <string name="not_enough_space" formatted="false"><![CDATA[<font color="red"><br/>Error: there is not enough free space. Requires 50 KB to 500 KB per ringtone for one contact</font><br/>]]></string>
+    <string name="cant_create_path" formatted="false"><![CDATA[<font color="red"><br/>Error: can\'t create path %s</font><br/>]]></string>
+    <string name="error_create_ringtone" formatted="false"><![CDATA[<font color="red"><br/>Error: can\'t create ringtone</font><br/>]]></string>
+    <string name="cancel_create_ringtone" formatted="false"><![CDATA[<font color="red"><br/>Cancel create ringtone</font><br/>]]></string>
+    <string name="error_create_speech" formatted="false"><![CDATA[<font color="red"><br/>Error: failed for create speech file</font><br/>]]></string>
+    <string name="error_download_speech" formatted="false"><![CDATA[<font color="red"><br/>Error: failed for download speech file. Check internet connection</font><br/>]]></string>
+    <string name="many_contacts_warning" formatted="false"><![CDATA[<font color="red">Warning: too many contacts (>500). Check your contacts list</font><br/>]]></string>
+
+    <string name="sel_speech" formatted="false"><![CDATA[Selected text for speech: "%s"<br/>]]></string>
+    <string name="ring_to_cont" formatted="false"><![CDATA[Assign a ringtone to a contact<br/><br/>]]></string>
+    <string name="create_not_need" formatted="false"><![CDATA[<br/>No ringtones required for contacts<br/>]]></string>
+    <string name="create_complete" formatted="false"><![CDATA[<br/>Ringtone creation complete<br/>]]></string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-5368195271545700/9283902476</string>
+    <string name="helptextpro" formatted="false"><![CDATA[
+        Hello, dear user.<br/>his application creates ringtones with voice acting (with the name of the caller from the contacts) and assigns them to the corresponding contacts.<br/>Significant difference from other, similar applications, in the following:<br/>1. There are no problems when playing the ringtone with the voice of the caller when the call comes in.<br/>2.The application does not need to be downloaded in order to play the ringtone with the scoring of the subscriber\'s name when an incoming call. Moreover, the program can be removed altogether (after it creates and assigns ringtones) - and the function of the caller\'s name will not be lost.<br/>3.Scoring will also work for bluetooth headphones - unless they have their own function of informing about an incoming call.<br/>4. The application does not necessarily have the presence on your phone of the service TTS (Text To Speech - Text In Speech), or your language in TTS in particular.<br/>Nevertheless, there are small cons:<br/>1.Ringtone files can take up a lot of space - up to several hundred megabytes - depending on the quality (sampling rate).<br/>2. Creating ringtones is quite a long process. With 500 contacts this can take up to one hour.<br/><br/>
+]]></string>
+    <string name="helptextbuttons" formatted="false"><![CDATA[
+<p>In order to test the working mechanism of creating a ringtone, or just listen to a sample ringtone - click the "Sample ringtone".<br/>
+To create ringtones for all contacts (to which the ringtone is not yet created), click the "Create ringtones for contacts"<br/>
+To delete all created by this application ringtones - click the "Delete ringtones"</p>
+]]></string>
+    <string name="helptextprolite" formatted="false"><![CDATA[
+        This is a free version of the app.<br/>To change the ringtone, activate the version of pro lite or purchase the pro version of the application.<br/>To change the prefix or suffix for a contact, or change the quality of the ringtone - get the pro version of the application.<br/>To activate the version of pro lite, check the connection to the Internet, go to the program settings and click "Try the pro lite version".<br/>Activation requires viewing the video ad to the end. If the menu item is not available, please try again later.<br/><br/>
+]]></string>
+
+</resources>
